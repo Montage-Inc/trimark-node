@@ -1,8 +1,8 @@
 {
   "name": "trimark-node",
   "version": "1.0.0",
-  "description": "Node wrapper for the Cimis API",
-  "main": "build/Cimis.js",
+  "description": "Node wrapper for the Trimark API",
+  "main": "build/Trimark.js",
   "author": "dphaener <dphaener@gmail.com>",
   "license": "MIT",
   "scripts": {
