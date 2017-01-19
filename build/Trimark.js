@@ -34,7 +34,7 @@ var Trimark = function Trimark(apiToken) {
     getSites: function getSites() {
       var _this = this;
 
-      getData('sites').then(function (sites) {
+      return getData('sites').then(function (sites) {
         _this.sites = sites.map(function (site) {
           return (0, _Site2.default)(getData, site);
         });

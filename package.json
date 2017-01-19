@@ -1,6 +1,6 @@
 {
   "name": "trimark-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node wrapper for the Trimark API",
   "main": "build/Trimark.js",
   "author": "dphaener <dphaener@gmail.com>",

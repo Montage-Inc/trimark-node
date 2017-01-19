@@ -19,7 +19,7 @@ var Site = function Site(getData, site) {
     getPoints: function getPoints() {
       var _this = this;
 
-      getData('sites/' + this.id + '/points').then(function (points) {
+      return getData('sites/' + this.id + '/points').then(function (points) {
         _this.points = points.map(function (point) {
           return (0, _Point2.default)(getData, _this.id, point);
         });
