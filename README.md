@@ -116,12 +116,12 @@ to the `timeFrame` option, effectively transforming it to `Custom`.
 
 An enum, one of:
 ```
-'Interval' | 'Hour' | 'Day' | 'Month' | 'Year'
+'Today' | 'Yesterday' | 'Last3Days' | 'Last7Days' | 'MonthToDate' | 'LastMonth' | 'YearToDate' | 'LastYear' | 'Custom'
 ```
 
 ### SampleTime
 
 An enum, one of:
 ```
-'Today' | 'Yesterday' | 'Last3Days' | 'Last7Days' | 'MonthToDate' | 'LastMonth' | 'YearToDate' | 'LastYear' | 'Custom'
+'Interval' | 'Hour' | 'Day' | 'Month' | 'Year'
 ```
