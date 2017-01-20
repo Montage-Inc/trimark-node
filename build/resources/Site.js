@@ -23,6 +23,7 @@ var Site = function Site(getData, site) {
         _this.points = points.map(function (point) {
           return (0, _Point2.default)(getData, _this.id, point);
         });
+        return _this.points;
       });
     }
   };

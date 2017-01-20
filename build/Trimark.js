@@ -38,6 +38,7 @@ var Trimark = function Trimark(apiToken) {
         _this.sites = sites.map(function (site) {
           return (0, _Site2.default)(getData, site);
         });
+        return _this.sites;
       });
     }
   };
